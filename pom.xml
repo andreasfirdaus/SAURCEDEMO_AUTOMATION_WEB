@@ -131,7 +131,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>Project Name</projectName>
+                            <projectName>SauceDemo Automation</projectName>
                             <outputDirectory>${project.build.directory}/Report/cucumber-reports</outputDirectory>
                             <cucumberOutput>${project.build.directory}/cucumber/cucumber.json</cucumberOutput>
 

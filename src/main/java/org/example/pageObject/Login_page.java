@@ -27,10 +27,14 @@ public class Login_page {
 
     @FindBy(xpath = "//h3")
     private WebElement errorMessage;
-    
+
+    // method input username
     public void inputFieldUserName(String username)
     {
         fieldUserName.sendKeys(username);
+        // metode sendKeys selenium adalah mengirim teks / mengisi nilai
+        // untuk isi teks atau nilai nya , dimasukkan di variable username
+        // disini username isinya masi kosong, nanti isinya dibuat di test case (login.feature)
     }
     public void inputFieldPassword(String password)
     {
